@@ -1,7 +1,7 @@
 {
   "targets": [
     {
-      "target_name": "rpio",
+      "target_name": "node-rpio",
       "include_dirs": [ "<!(node -e \"require('nan')\")" ],
       "sources": [
         "src/bcm2835.c",
